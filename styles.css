@@ -1,0 +1,84 @@
+body{
+    margin: 0%;
+    overflow: hidden;
+    background: rgb(20, 25, 45);
+}
+
+#container {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+  }
+  #container canvas, #menus {
+    position: absolute;
+  }
+  canvas {
+    border: 1px solid rgb(255, 255, 255);
+    left: 21%;
+    width: 78.5%;
+    height: 99.8%;
+    overflow: hidden;
+  }
+
+#menus{
+    display: flex;
+    flex-direction: column;
+    border-radius: 3px;
+    width: 21vw;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.288);
+}
+
+button{
+    margin-top: 10%;
+    width: 100%;
+    height: 10%;
+}
+
+h2{
+    font-size: 10px;
+}
+
+h1{
+    font-size: 13px;
+    align-self: center;
+    justify-self: center;
+}
+
+input{
+    margin: 0;
+    margin-top: 5%;
+    width: 100%;
+}
+
+
+.cbtns{
+    display: flex;
+    flex-direction: row;
+    margin: 0%;
+    width: 100%;
+}
+
+.white{
+    margin: 0;
+    background: white;
+    height: 50px;
+}
+
+.red{
+    margin: 0;
+    background: rgb(255, 75, 75);
+    height: 50px;
+}
+
+.green{
+    margin: 0;
+    background: rgb(101, 255, 106);
+    height: 50px;
+}
+
+.blue{
+    margin: 0;
+    background: rgb(105, 130, 255);
+    height: 50px;
+}
